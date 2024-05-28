@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* outline: 1.5px red solid; */
+    
+}
+#top-heading{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 4vw;
+    margin-bottom: 2%;
+    letter-spacing: -.2vw;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    max-height: 60vh;
+}
+#section-1{
+    max-width: 65%;
+    /* background-color: rgb(35, 102, 96); */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4% 5%;
+}
+#section-1a{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    margin-bottom: 8%;
+    padding-right: 6%;
+}
+#section-1b{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    margin-bottom: 8%;
+}
+#section-1c{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    padding-right: 6%;
+}
+#section-1d{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+}
+#section-2{
+    background-color: #395F6B;
+}
+#section-2-content{
+    max-width: 65%;
+    display: flex;
+    /* background-color: cadetblue; */
+    margin: 0 auto;
+    position: relative; 
+    top: 3vw;
+}
+#section-3{
+    padding-top: 6%;
+    max-width: 65%;
+    /* background-color: rgb(126, 152, 175); */
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+#online-learning{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#section-4{
+    background-color: #395F6B;
+}
+#section-4-content{
+    max-width: 65%;
+    margin: 0 auto;
+    /* background-color: rgb(145, 147, 148); */
+}
+.box-number{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vw;
+    color: #395F6B;
+    padding-top: 10%;
+}
+#section-6{
+    background-color: #F0F6F8;
+    margin-top: -1%;
+}
+#section-6-content{
+    max-width: 65%;
+    margin: 0 auto;
+}
+#section-6-content p{
+    color: #395F6B;
+    padding-top: 11%;
+    padding-bottom: 11%;
+    font-size: 1.5vw;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 70%;
+    margin: 0 auto;
+    line-height: 2.2vw;
+}
+.parallax{
+    background-image: url("./images/scenery.jpg");
+    min-height: 68vh; 
+    max-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+ #section-8{
+    display: flex;
+ }
+ ::placeholder {
+    color: #9CAFB5;
+  }
+  input:focus{
+    outline: none;
+  }
+  textarea:focus{
+    outline: none;
+  }
